@@ -17,8 +17,8 @@ class Clinsay extends Command {
   async run() {
     const {flags} = this.parse(Clinsay)
 
-    const animal = _.sample(animals);
-    this.log(`The ${animal.name} says ${animal.speak}!`)
+    const animal = _.sample(animals)
+    this.log(`The ${animal!.name} says ${animal!.speak}!`)
   }
 }
 
