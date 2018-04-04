@@ -49,4 +49,4 @@ const barnyard = [
   }
 ]
 
-export = barnyard;
+export = barnyard
