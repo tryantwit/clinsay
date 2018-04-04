@@ -11,6 +11,7 @@
     "@oclif/command": "^1.4.6",
     "@oclif/config": "^1.3.62",
     "@oclif/plugin-help": "^1.2.2",
+    "@types/lodash": "^4.14.106",
     "lodash": "^4.17.5"
   },
   "devDependencies": {
