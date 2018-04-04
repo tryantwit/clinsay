@@ -1,12 +1,12 @@
 {
-  "name": "cliandsay",
+  "name": "clinsay",
   "description": "Like that kids toy where you spin the wheel and an animal says something.",
   "version": "0.0.0",
   "author": "Tim Ryan @tryantwit",
   "bin": {
-    "cliandsay": "./bin/run"
+    "clinsay": "./bin/run"
   },
-  "bugs": "https://github.com/tryantwit/cliandsay/issues",
+  "bugs": "https://github.com/tryantwit/clinsay/issues",
   "dependencies": {
     "@oclif/command": "^1.4.6",
     "@oclif/config": "^1.3.62",
@@ -33,16 +33,16 @@
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/tryantwit/cliandsay",
+  "homepage": "https://github.com/tryantwit/clinsay",
   "keywords": [
     "oclif"
   ],
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
-    "bin": "cliandsay"
+    "bin": "clinsay"
   },
-  "repository": "tryantwit/cliandsay",
+  "repository": "tryantwit/clinsay",
   "scripts": {
     "build": "rm -rf lib && tsc",
     "lint": "tsc -p test --noEmit && tslint -p test -t stylish",

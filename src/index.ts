@@ -4,7 +4,7 @@ import * as _ from 'lodash'
 
 import * as animals from './animals'
 
-class Cliandsay extends Command {
+class Clinsay extends Command {
   static description = 'describe the command here'
 
   static flags = {
@@ -15,11 +15,11 @@ class Cliandsay extends Command {
   }
 
   async run() {
-    const {flags} = this.parse(Cliandsay)
+    const {flags} = this.parse(Clinsay)
 
     const animal = _.sample(animals);
     this.log(`The ${animal.name} says ${animal.speak}!`)
   }
 }
 
-export = Cliandsay
+export = Clinsay
