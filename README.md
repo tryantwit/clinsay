@@ -3,6 +3,8 @@ clinsay
 
 Like that kids toy where you spin the wheel and an animal says something.
 
+Basically just playing around with oclif.
+
 [![Version](https://img.shields.io/npm/v/clinsay.svg)](https://npmjs.org/package/clinsay)
 [![CircleCI](https://circleci.com/gh/tryantwit/clinsay/tree/master.svg?style=shield)](https://circleci.com/gh/tryantwit/clinsay/tree/master)
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/tryantwit/clinsay?branch=master&svg=true)](https://ci.appveyor.com/project/tryantwit/clinsay/branch/master)
